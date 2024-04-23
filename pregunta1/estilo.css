@@ -1,0 +1,106 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    max-height: 100%;
+}
+ol{
+    list-style: none;
+}
+
+nav{
+    display: flex;
+    padding-left: 40px; 
+    height: 50px;   
+}
+nav ol{
+    display: flex;    
+}
+nav li{
+    margin-right: 2rem;
+}
+section #PC{      
+    background-image: url(banner.jpg);
+    background-size: 100%;
+    padding-left: 40px;
+    height: 700px;
+}
+#PC h1{
+    padding-top: 200px;    
+    color: white;
+}
+#PC h4{
+    width: 420px;
+    font-weight: lighter;
+    color: white;
+    font-size: 20px;
+}
+#PC h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+button{
+    color: black;
+    background-color: #9BF00B;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-right: 1rem;
+}
+button:hover{
+    color: white;
+}
+span{
+    display: flex;
+}
+h3{
+    color: #9BF00B;
+    font-weight: bolder;
+}
+#follow{
+    display: flex; 
+    margin-left: 40px;   
+    height: 80px;
+    align-items: center;
+}
+#follow p{
+    color: black;    
+}
+#resources{
+    display: flex;
+    background-color: #F2F2F2;
+    height: 210px;
+}
+.mas{
+    margin-right: 1rem;
+    width: 150px;
+}
+
+.mas li{
+    margin-top: 14px;
+    font-size: 12px;
+}
+
+footer{    
+    background-color: #F2F2F2;
+    height: 58px;
+}
+footer ol{
+    margin-top: 0px;
+    display: flex;
+    margin-left: 950px;
+}
+footer li{
+    margin-top: 20px;
+    margin-right: auto;
+    font-size: 12px;
+}
+
+
+
+
+
+
